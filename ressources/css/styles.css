@@ -1,5 +1,4 @@
 /*barre de menu déroulant*/
-#
 .menu, .menu ul{ /* début du menu avec les balise <ul> </ul>*/
   padding: 0; /* notre marge interieur*/
   margin:  0; /*notre marge extérieur*/
