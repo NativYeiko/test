@@ -24,7 +24,7 @@ nav li{
 }
 
 nav{
-  width: 100%
+  width: 100%;
   background-color: black;
 }
 
@@ -45,8 +45,8 @@ nav a{
 }
 
 nav>ul>li>a{
-  padding: 20px;
-  color: red;
+  padding: 20px 30px;
+  color: #FFF;
 }
 
 .submenu{
@@ -57,8 +57,8 @@ nav li:hover .submenu{
   display: inline-block;
   position: absolute;
   top: 100%;
-  left: 0px
-  padding: 0px
+  left: 0px;
+  padding: 0px;
   z-index: 100000;
 }
 
@@ -66,11 +66,11 @@ nav li:hover .submenu{
   padding: 15px 30px;
   font-size: 13px
   color: blue;
-  width: 270px
+  width: 270px;
 }
 
 .submenu li{
-  border-bottom: 1px solid #CCC
+  border-bottom: 1px solid #CCC;
 }
 
 .submenu li a{
@@ -78,4 +78,29 @@ nav li:hover .submenu{
   font-size: 13px;
   color: yellow;
   width: 270px;
+}
+
+.menu-acceuil:hover{
+  border-top: 5px solid #e44d26;
+  background-color: RGBa(220, 220, 220, 0.15);
+}
+
+.menu-boutique:hover{
+  border-top: 5px solid #0070bb;
+  background-color: RGBa(000, 112, 192, 0.15);
+}
+
+.menu-vente-flash:hover{
+  border-top: 5px solid #f1dc4f;
+  background-color: RGBa(241, 211, 79, 0.15);
+}
+
+.menu-membres:hover{
+  border-top: 5px solid #BBB;
+  background-color: RGBa(220, 220, 220, 0.15);
+}
+
+.menu-contact:hover{
+  border-top: 5px solid #CCC;
+  background-color: RGBa(220, 220, 220, 0.15);
 }
