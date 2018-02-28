@@ -80,27 +80,32 @@ nav li:hover .submenu{
   width: 270px;
 }
 
-.menu-acceuil:hover{
+.menu-acceuil:hover a{
   border-top: 5px solid #e44d26;
   background-color: RGBa(220, 220, 220, 0.15);
 }
 
-.menu-boutique:hover{
+.menu-boutique:hover li{
   border-top: 5px solid #0070bb;
   background-color: RGBa(000, 112, 192, 0.15);
 }
 
-.menu-vente-flash:hover{
+.menu-vente-flash:hover li{
   border-top: 5px solid #f1dc4f;
   background-color: RGBa(241, 211, 79, 0.15);
 }
 
-.menu-membres:hover{
+.menu-membres:hover li{
   border-top: 5px solid #BBB;
   background-color: RGBa(220, 220, 220, 0.15);
 }
 
-.menu-contact:hover{
+.menu-contact:hover li{
   border-top: 5px solid #CCC;
   background-color: RGBa(220, 220, 220, 0.15);
+}
+/* Fin du menu déroulant */
+
+body{
+  background-image: url("fond.png");
 }
