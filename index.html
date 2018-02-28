@@ -12,43 +12,52 @@
     <title>Page test</title>
   </head>
   <body>
-    <h1>Titre 1</h1>
 <!-- Barre de menu déroulent -->
-    <ul id"menu">
-      <li> <a href="#">accueil</a> </li>
-      <li> <a href="#">membres</a></li>
+    <nav>
         <ul>
-          <li> <a href="#">connection</a> </li>
-            <ul>
-              <li> <a href="#">récupération du compte</a> </li>
-            </ul>
-          <li> <a href="#">incription</a> </li>
+          <li class="accueil"><a href="#">accueil</a></li>
         </ul>
-      <li> <a href="#">images</a></li>
         <ul>
-          <li> <a href="#">photo</a> </li>
-          <li> <a href="#">video</a> </li>
+          <li class="membres"><a href="#">membres</a></li>
+        <ul class="submenu">
+          <li class="connection"><a href="#">connection</a></li>
             <ul>
-              <li> <a href="#">perlinpinpin</a> </li>
-              <li><a href="#">licorne</a></li>
+              <li class="submenu"><a href="#">récupération du compte</a> </li>
+          </ul>
+        <ul>
+          <li class="inscription"><a href="#">inscription</a></li>
+        </ul>
+        <ul>
+          <li class="images"><a href="#">images</a></li>
+            <ul class="submenu">
+              <li> <a href="#">photo</a></li>
+              <li> <a href="#">video</a></li>
+              <ul class="submenu">
+                <li> <a href="#">perlinpinpin</a></li>
+                <li><a href="#">licorne</a></li>
             </ul>
-        </ul>
-      <li> <a href="#">télécharchement</li>
         <ul>
-          <li> <a href="#">images</a> </li>
-          <li> <a href="#">video</a> </li>
-          <li> <a href="#">musique</a> </li>
-        </ul>
-      <li> <a href="#">plus</a> </li>
+          <li class="télécharchement"> <a href="#">télécharchement</li>
+            <ul class="submenu">
+              <li> <a href="#">images</a></li>
+              <li> <a href="#">video</a></li>
+              <li> <a href="#">musique</a></li>
+            </ul>
         <ul>
-          <li> <a href="#">contact</a></li>
+          <li class="plus"> <a href="#">plus</a></li>
+            <ul class="submenu">
+              <li> <a href="#">contact</a></li>
+                <u class="submenu"l>
+                  <li><a href="#">drh</a></li>
+                  <li><a href="#">service aprés ventes</a></li>
+            </ul>
             <ul>
-              <li><a href="#">drh</a></li>
-              <li><a href="#">service aprés ventes</a></li>
-            </ul>
-          <li> <a href="#">liens</a> </li>
-          <li> <a href="#">forum</a> </li>
-    </ul>
+          <li class="liens"> <a href="#">liens</a></li>
+        </ul>
+        <ul>
+          <li class="forum"> <a href="#">forum</a></li>
+        </ul>
+      </nav>
     <h2></h2>
     <h3></h3>
 <!--Barre de menu déroulant -->
