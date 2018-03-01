@@ -24,7 +24,10 @@ body{
   font-family: fantasy;
   margin: 0px;
   padding: 0px;
+  color:black;
+  background-image:url(ressources/img/fond.jpg);
 }
+
 
 
 
@@ -129,10 +132,6 @@ nav li:hover .submenu{
   background-color: RGBa(220, 220, 220, 0.15);
 }
 /* Fin du menu déroulant */
-
-{
-  background-image: url("fond.png");
-}
 
 .row {
   margin-right: -15px;
