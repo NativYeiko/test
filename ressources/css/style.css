@@ -133,6 +133,7 @@ nav li:hover .submenu{
 }
 /* Fin du menu déroulant */
 
+<<<<<<< HEAD
 .row {
   margin-right: -15px;
   margin-left: -15px;
@@ -161,4 +162,8 @@ nav li:hover .submenu{
 .photo img:hover{
   opacity: 1;
   transform: scale(1);
+=======
+body{
+  background-image: url("fond.png");
+>>>>>>> master
 }
